@@ -3,7 +3,7 @@
 ## Overview
 
 This project demonstrates a fully **automated, end-to-end multi-agent AI system** for managing doctor appointments. Using **agentic AI**, multiple specialized agents collaborate to handle user requests seamlessly — from understanding the user's query, checking doctor availability, to booking, canceling, or rescheduling appointments. This showcases the **power of autonomous AI agents working together** to complete complex tasks without human intervention.
-
+![Architecture](Images/Img_3.png)
 ---
 
 ## Features
@@ -56,20 +56,4 @@ uvicorn main:app --host 127.0.0.1 --port 8000
 streamlit run streamlit_ui.py
 ```
 
----
-
-## Screenshots
-
-Here are some screenshots of the system in action:
-
-1. **Homepage**:
-   ![Homepage](Images/homepage.png)
-
-2. **Doctor Availability**:
-   ![Doctor Availability](Images/doctor_availability.png)
-
-3. **Booking Confirmation**:
-   ![Booking Confirmation](Images/booking_confirmation.png)
-
-4. **Rescheduling Appointment**:
-   ![Rescheduling Appointment](Images/reschedule_appointment.png)
+---   
